@@ -1,6 +1,6 @@
 import React from 'react';
 import "./NavMenu.css";
-import logo from "../../Images/ipqLogo.png";
+import logo from "../../Images/ipqLogo1.png";
 import {
   Collapse,
   Navbar,

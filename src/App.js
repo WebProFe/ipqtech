@@ -12,6 +12,7 @@ class App extends Component {
       <Router>
       <div>
         <NavMenu />
+        <Home />
         {/* <Route exact path="/" component={Home} /> */}
       </div>
     </Router>

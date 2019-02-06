@@ -3,15 +3,15 @@
     padding-right: 15px !important;
     text-decoration: none !important;
     cursor: pointer !important;
-    border: solid blue 2px;
-    color: black !important
+    color: #24A1DA !important;
+    background: rgb(255, 255, 255)
 
 }
 
 .navigation :hover{
    text-decoration: none;
    cursor: pointer;
-   color: rgb(200, 209, 33) !important;
+   color: #5671AB !important;
 
 }
 .logo{

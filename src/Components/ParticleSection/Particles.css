@@ -1,0 +1,7 @@
+.particles{
+    background-image: url("../../Images/banner.png");
+    background-color: rgb(129, 169, 255);
+    background-size: contain;
+    background-repeat: no-repeat
+
+}

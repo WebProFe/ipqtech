@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import './Particles.css'
+import data from '../../Images/ipqLogo1.png'
+import css from '../../Images/css-icon.png'
+import code from '../../Images/code-icon.png'
+import ecommerce from '../../Images/ecommerce-icon.png'
+import js from '../../Images/js-icon.png'
  
 class ParticleSection extends Component{
   
@@ -12,51 +17,77 @@ class ParticleSection extends Component{
             params={{
               particles: {
                 number: {
-                  value: 20,
+                  value: 3,
                   density: {
                     enable: true,
-                    value_area: 6000
+                    value_area: 800
                   }
                 },
                 color: {
                   value: "#42f474"
                 },
                 shape: {
-                  type: "circle",
-                  polygon: {
-                    nb_sides: 4
-                  }
+                  type:
+                    "images",
+                images: [
+	                {
+	                    src: `${data}`,
+	                    height: 800,
+	                    width: 830
+                    },
+                    {
+	                    src: `${css}`,
+	                    height: 800,
+	                    width: 830
+                    },
+                    {
+	                    src: `${code}`,
+	                    height: 800,
+	                    width: 830
+                    },
+                    {
+	                    src: `${ecommerce}`,
+	                    height: 800,
+	                    width: 830
+                    },
+                    {
+	                    src: `${js}`,
+	                    height: 800,
+	                    width: 830
+	                }
+                    
+	            ]
                 },
-                opacity: {
-                  value: 0.4,
+                // opacity: {
+                //   value: 0.4,
+                //   random: true,
+                //   anim: {
+                //     enable: true,
+                //     speed: 1,
+                //     opacity_min: 0.1,
+                //     sync: false
+                //   }
+                // },
+                size: {
+                  value: 40,
                   random: true,
                   anim: {
                     enable: true,
-                    speed: 1,
-                    opacity_min: 0.1,
-                    sync: false
-                  }
-                },
-                size: {
-                  value: 20,
-                  random: true,
-                  anim: {
-                    enable: false,
-                    speed: 40,
-                    size_min: 0.1,
+                    speed: 4,
+                    size_min: 10,
                     sync: false
                   }
                 },
                 line_linked: {
                   enable: true,
                   distance: 0,
-                  color: "#000000",
-                  opacity: 0.3687847739990702,
-                  width: 0.6413648243462091
+                  color: "#ffffff",
+                  opacity: 1,
+                  width: 0.01
                 },
                 move: {
                   enable: true,
-                  speed: 5,
+                  speed: 2,
                   direction: "top",
                   random: false,
                   straight: false,

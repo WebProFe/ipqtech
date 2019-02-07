@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 import "./Particles.css"
-import Particles from "./Particles";
+import IntroBanner from "./IntroBanner";
 
 class ParticleSection extends Component{
 
     render(){
         return(
             <div className="hero-image">
-                <Particles/>
+                <IntroBanner/>
                 <div className="hero-cover">
                     <div className="text-block">
                         <h1>Innovation in Program Quality</h1>

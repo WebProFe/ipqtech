@@ -7,7 +7,7 @@ import code from '../../Images/code-icon.png'
 import ecommerce from '../../Images/ecommerce-icon.png'
 import js from '../../Images/js-icon.png'
  
-class ParticleSection extends Component{
+class IntroBanner extends Component{
   
     render(){
         return (
@@ -141,4 +141,4 @@ class ParticleSection extends Component{
  
 }
 
-export default ParticleSection;
+export default IntroBanner;

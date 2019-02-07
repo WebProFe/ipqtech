@@ -28,7 +28,7 @@ class NavMenu extends React.Component {
   }
   render() {
     return (
-        <Navbar className="navigation"  dark expand="md">
+        <Navbar className="navigation"  light expand="md">
           <NavbarBrand className="company-name" href="/"><img className="logo" src={logo} alt=""/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

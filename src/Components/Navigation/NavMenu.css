@@ -1,10 +1,12 @@
-.navigation{
+.navigation {
     padding-left: 50px !important;
     padding-right: 15px !important;
     text-decoration: none !important;
     cursor: pointer !important;
     color: #24A1DA !important;
-    background: rgb(255, 255, 255)
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 2px 8px 0px #888888;
+
 
 }
 

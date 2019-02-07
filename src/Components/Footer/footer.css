@@ -1,0 +1,27 @@
+.footer{
+   background-color: #071330;
+   padding-top:25px;
+   padding-bottom:20px;
+}
+.footer img{
+   width: 140px;
+   height: 140px;
+}
+.footer a{
+   color:white;
+}
+.footer p{
+   color:white;
+}
+.footer h4{
+   color:white;
+}
+Form #form_input{
+   background-color:#071330;
+   color:white;
+   border:1px solid white;
+}
+#footer_copyright{
+   border-top: 0.5px solid white;
+   padding-top:12px;
+}

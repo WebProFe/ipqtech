@@ -1,0 +1,49 @@
+
+.projects-container{
+    padding: 5%;
+    background: #FAFAFA;
+}
+.project-card{
+    text-align: center;
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 3px #999;
+    -webkit-box-shadow: 1px 1px 3px #999;
+    box-shadow: 1px 1px 4px rgba(94, 94, 94, 0.406);
+}
+
+.line-title{
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+  }
+  
+  .line-title:before,
+  .line-title:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .line-title:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .line-title:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+.card-text{
+    text-align: left
+}
+
+.card-image{
+    height: 250px;
+    width: auto
+    
+}

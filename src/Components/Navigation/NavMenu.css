@@ -10,6 +10,11 @@
 
 }
 
+.company-name{
+    color: #24A1DA !important;
+    font-weight: 600 
+}
+
 .navigation :hover{
    text-decoration: none;
    cursor: pointer;

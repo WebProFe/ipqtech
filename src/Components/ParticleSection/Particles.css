@@ -1,8 +1,8 @@
 .particles{
-    background-image: url("../../Images/banner.png");
-    background-color: rgb(129, 169, 255);
-    background-size: contain;
-    background-repeat: no-repeat
+    background-image: url("../../Images/ipq-mobile-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
  /* Container holding the image and the text */
@@ -40,4 +40,13 @@
     .text-block h4{
       font-size: 1em;
     }
+
+    .particles{
+      height: ;
+      border: solid 2px green
+      
+    }
+    
+
+
 }

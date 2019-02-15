@@ -28,19 +28,19 @@ class NavMenu extends React.Component {
   }
   render() {
     return (
-        <Navbar className="navigation"  light expand="md">
-          <NavbarBrand className="company-name" href="/"><img className="logo" src={logo} alt=""/>Innovation in Program Quality</NavbarBrand>
+        <Navbar className="navigation"  light expand="md" color="faded">
+          <NavbarBrand className="company-name" classID="name" href="/"><img className="logo" src={logo} alt=""/>Innovation in Program Quality</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto"  navbar>
-              <NavItem>
-                <Link to="/"><NavLink className="navigation">Home</NavLink></Link>
+              <NavItem >
+                <Link to="/"><NavLink className="navigation" onClick={this.toggle}>Home</NavLink></Link>
               </NavItem>
               <NavItem>
-                <Link to="/services"><NavLink className="navigation">Services</NavLink></Link>
+                <Link to="/services"><NavLink className="navigation" onClick={this.toggle}>Services</NavLink></Link>
               </NavItem>
               <NavItem>
-                <Link to="/contact"><NavLink className="navigation">Contact</NavLink></Link>
+                <Link to="/contact"><NavLink className="navigation" onClick={this.toggle}>Contact</NavLink></Link>
               </NavItem>
             </Nav>
           </Collapse>

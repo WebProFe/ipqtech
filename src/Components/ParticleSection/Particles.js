@@ -11,9 +11,9 @@ class ParticleSection extends Component{
   
     render(){
         return (
-            <div className="particles">
 
             <Particles
+            className="particles"
             params={{
               particles: {
                 number: {
@@ -135,7 +135,6 @@ class ParticleSection extends Component{
               retina_detect: true
             }}
           />
-          </div>
         );
     };
  

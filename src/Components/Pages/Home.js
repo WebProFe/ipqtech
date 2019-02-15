@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-import ParticleSection from "../ParticleSection/ParticleSection";
+import Header from '../Home/Header';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faLevelDownAlt } from '@fortawesome/free-solid-svg-icons';
+import Introduction from "../Home/Introduction";
+
+library.add(faLevelDownAlt);
 
 class Home extends Component {
     render(){
         return(
             <div>
-                <ParticleSection />
+                <Header/>
+                <Introduction />
             </div>
         )
     }

@@ -1,0 +1,73 @@
+.header-container{
+    background-image: url("../../Images/ipq-mobile-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border: solid blue 3px
+}
+
+.item-company-name{
+    margin-top:20%;
+    text-align: center;
+    width: 100%;
+}
+
+.header-item-work{
+    text-align: center;
+    width: 100%;
+    margin-top:10%;
+}
+.header-item-work h3{
+    border:solid rgba(0, 0, 0, 0.434) 3px;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto
+}
+.item-arrow{
+    margin-top:20%;
+    text-align: center;
+    width: 100%;
+}
+
+.paragraph-container{
+    background-image: url("../../Images/alternativeBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50vw;
+    color: white;
+    border: solid blue 3px;
+    background-color: black
+
+}
+
+.paragraph{
+    color: black;
+    border: solid blue 3px
+
+}
+
+.intro-paragraph{
+    background-image: url("../../Images/alternativeBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vw;
+}
+
+.intro-paragraph p{
+    text-align: center;
+    padding: 30% 5%
+}
+
+.about-us{
+    height: 70vw;
+    padding: 20% 2%;
+}
+
+.about-us p{
+    color: rgba(0, 0, 0, 0.53)
+
+}

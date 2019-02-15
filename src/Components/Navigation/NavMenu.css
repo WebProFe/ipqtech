@@ -4,15 +4,12 @@
     text-decoration: none !important;
     cursor: pointer !important;
     color: #24A1DA !important;
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 2px 8px 0px #888888;
-
-
 }
 
 .company-name{
     color: #24A1DA !important;
-    font-weight: 600 
+    font-weight: 600;
+ 
 }
 
 .navigation :hover{
@@ -23,15 +20,18 @@
 }
 .logo{
     height: 50px;
-    width: auto
+    width: auto;
 }
 
-@media screen and (max-width:500px){
-    .company-name{
-        font-size: 16px !important;
+@media screen and (max-width:700px){
+    .navbar-brand{
+        font-size: 10px;
+        /* visibility: hidden; */
     }
     .navigation{
         padding-left: 40px !important;
+            border: solid blue 3px
+
 
     }
 }
